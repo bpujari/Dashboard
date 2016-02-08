@@ -1,0 +1,61 @@
+html {height: 100%;}
+
+*{max-height: 10000px;}
+
+body{
+	background: $base-background-color;
+	color: $base-text-color;
+	font: #{$base-font-size}/ #{$base-line-height} $base-font-family;
+	font-style: $base-font-style;
+	font-weight: $base-font-weight;
+	min-width: $base-min-width;
+	height: $base-height;
+}
+
+a {
+	outline: none;
+	&:focus {
+		outline: none;
+	}
+}
+
+.btn-primary {
+  background: #1C2840;
+  border-color: #1C2840;
+}
+
+#wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+#main {
+  position: relative;
+  overflow: hidden;
+  margin-left: 250px;
+  min-width: 300px;
+  height: 100%;
+}
+
+.content-wrapper {
+  background: #fff;
+  padding: 0 15px;
+}
+
+/* Start Sidebar Hidden */
+.sidebar-hidden {
+	#sidebar {
+		margin-left: -250px;
+	}
+
+	#main {
+		margin-left: 0;
+	}
+
+	.header-topbar {
+		width: 100% !important;
+		left: 0 !important;
+		right: 0 !important;
+	}
+}
+/* End Sidebar Hidden */

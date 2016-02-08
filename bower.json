@@ -1,0 +1,24 @@
+{
+  "name": "Dashboard",
+  "description": "Dashboard Admin",
+  "main": "",
+  "authors": [
+    "Bickey Pujari"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ecommerce"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "fontawesome#^4.5.0",
+    "ScrollToFixed": "^1.0.6"
+  }
+}

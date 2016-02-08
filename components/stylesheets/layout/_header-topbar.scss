@@ -1,0 +1,66 @@
+/* Header Topbar */
+.header-topbar {
+  background: #31476d;
+  .sidebar-toggle {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: -15px;
+    font-size: 30px;
+    background: #F2B47E;
+    color: #fff;
+    &:hover,
+    &:focus {
+      background: #F2B47E;
+      color: #fff;
+    }
+  }
+  .search-form {
+    .form-control {
+      height: 60px;
+      padding-left: 15px;
+      border: none;
+      border-radius: 0;
+      background: #1c2840;
+      color: #fff;
+      font-weight: 600;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    .btn {
+      height: 60px;
+      padding-right: 25px;
+      border-radius: 0;
+      background: #1c2840;
+      color: #fff;
+    }
+  }
+  .avatar-holder {
+    float: right;
+    padding-right: 15px;
+    .dropdown-toggle {
+      padding-right: 0;
+      color: #fff;
+      font-weight: 600;
+      text-transform: uppercase;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+      img {
+        width: 45px;
+        height: 45px;
+        border-radius: 4px;
+        margin-left: 15px;
+      }
+    }
+    .dropdown-menu {
+      right: 0;
+      left: auto;
+    }
+    a {
+      color: #777;
+    }
+  }
+}
